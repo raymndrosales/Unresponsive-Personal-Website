@@ -1,0 +1,277 @@
+body {
+    background-color: #FFF2D8;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 50%;
+}
+
+h1 {
+    width: 100%;
+    margin-left: 46%;
+    margin-top: 90px;
+    font-size: 60px;
+    color: #2f2f2f;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 30px;
+    color: #2f2f2f;
+}
+
+h3 {
+    margin: 0 50px 60px 0;
+    font-size: 15px;
+    text-align: center;
+    color: #2f2f2f;
+}
+
+.name {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.description {
+    margin-left: 46%;
+    height: 100%;
+    text-align: start;
+    color: #2f2f2f;
+}
+
+.contact {
+    margin-left: 46%;
+    height: 100%;
+}
+
+.myself {
+    height: 400px;
+    width: 300px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius:  10%;
+    border-bottom-right-radius: 10%;
+    margin-left: 53%;
+    margin-top: 70px;
+}
+
+.contact {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #113946;
+    color: #FFF2D8;
+    border: 1px solid #113946;
+    box-sizing: border-box;
+}
+
+.contact:hover {
+    background-color: #FFF2D8;
+    color: #113946;
+    transition: 0.5s;
+    
+}
+
+.buttons {
+    list-style-type: none;
+}
+
+.buttoncontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #113946;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FFF2D8;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.navbar:hover {
+    text-decoration: none;
+}
+
+.rosales {
+    color: #EAD7BB;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: 65%;
+    color: #EAD7BB;
+}
+
+.buttons:hover {
+    color: #FFF2D8;
+}
+
+.service {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+.below {
+    color: #2f2f2f;
+}
+
+.box1 {
+    border-style: ridge;
+    border-color: #2f2f2f;
+    border-width: 1px;
+    box-shadow: 6px 2px 25px -9px #113946;
+    width: 300px;
+    height: 260px;
+    background-color: #FFF2D8;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 50px;
+    color: #113946;
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.box2 {
+    border-style: ridge;
+    border-color: #2f2f2f;
+    border-width: 1px;
+    box-shadow: 6px 2px 25px -9px #113946;
+    width: 300px;
+    height: 260px;
+    background-color: #FFF2D8;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #113946;
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.box3 {
+    border-style: ridge;
+    border-color: #2f2f2f;
+    border-width: 1px;
+    box-shadow: 6px 2px 25px -9px #113946;
+    width: 300px;
+    height: 260px;
+    background-color: #FFF2D8;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 50px;
+    color: #113946;
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 70px;
+}
+
+span {
+    font-weight: bold;
+    color: #EAD7BB;
+}
+
+.price1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.price {
+    color: #113946;
+    font-size: small;
+}
+
+.description1 {
+    font-weight: 400;
+    color: #113946;
+    width: 100%;
+}
+
+.price2 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #EAD7BB;
+}
+
+
+.price-per {
+    color: #EAD7BB;
+    font-size: small;
+}
+
+.description2 {
+    color: #EAD7BB;
+    width: 100%;
+}
+
+.footer {
+    list-style-type: none;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100px;
+    padding: 60px 0 40px 0;
+    background-color: #113946;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #EAD7BB;
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #EAD7BB;
+    margin-top: 40px;
+}
